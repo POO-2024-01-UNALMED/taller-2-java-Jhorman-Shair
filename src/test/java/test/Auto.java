@@ -15,26 +15,26 @@ public class Auto {
 			if asientos[i]!=null{
 				x+=1;
 			}
-			return x
+			return x;
 	     }
 	}
 	String verificarIntegridad(){
 		String resultado;
 		if(registro==motor.registro) {
-			resultado="Auto original"
-		}else{
-			resultado="Las piezas no son originales"
+			resultado="Auto original";
+		}else{	
+			resultado="Las piezas no son originales";
 		}
 		if (resultado=="Auto original") {
 			for (int i;i<asientos.length;i++) {
 				if (asientos[i]!=null){
 					if (asientos[i].registro!=registro) {
 						resultado="Las piezas no son originales";
-						break
+						break;
 					}
 				}	
 		}
 	}
-		return resultado
+		return resultado;
   }
 }
