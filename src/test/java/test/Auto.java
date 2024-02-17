@@ -31,8 +31,7 @@ public class Auto {
 					if (asientos[i].registro!=registro) {
 						resultado="Las piezas no son originales";
 						break;
-					}
-				}	
+					}	
 		}
 	}
 		return resultado;
