@@ -1,15 +1,15 @@
-package Sobre_el_auto;
+package test;
 
 public class Asiento {
-	static String color;
+	String color;
     int precio;
     int registro;
     
-    static void cambiarColor(String x){
-   	 String[] Juan= {"rojo","verde","amarillo","negro","blanco"};
+    void cambiarColor(String x){
+   	 String[] tipos= {"rojo","verde","amarillo","negro","blanco"};
    	 
    	 for (int i=0;i<5;i++){
-   		 if (Juan[i]==x) {
+   		 if (tipos[i]==x) {
    		    color=x;
        }
      }
